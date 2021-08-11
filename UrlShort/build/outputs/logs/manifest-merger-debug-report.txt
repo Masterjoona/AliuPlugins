@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+		INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+		ADDED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+		INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+		ADDED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml
+		INJECTED from E:\pluginss\plugins\UrlShort\src\main\AndroidManifest.xml

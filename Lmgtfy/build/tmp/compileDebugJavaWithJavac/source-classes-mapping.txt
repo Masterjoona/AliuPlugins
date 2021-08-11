@@ -1,0 +1,4 @@
+com/aliucord/plugins/BuildConfig.java
+ com.aliucord.plugins.BuildConfig
+com/aliucord/plugins/Lmgtfy.java
+ com.aliucord.plugins.Lmgtfy
