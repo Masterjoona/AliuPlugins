@@ -9,5 +9,8 @@
     },
     "UrlShort": {
         "version": "1.0.0"
+    },
+    "AccountSwitcher": {
+        "version": "1.0.0"
     }
 }
