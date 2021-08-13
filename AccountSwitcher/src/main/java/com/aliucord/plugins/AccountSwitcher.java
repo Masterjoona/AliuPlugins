@@ -15,7 +15,7 @@ import com.discord.stores.StoreAuthentication;
 import com.discord.stores.StoreStream;
 
 @SuppressWarnings("unused")
-public class Lmgtfy extends Plugin {
+public class AccountSwitcher extends Plugin {
 
     
 
@@ -24,7 +24,7 @@ public class Lmgtfy extends Plugin {
     public Manifest getManifest() {
         Manifest manifest = new Manifest();
         manifest.authors = new Manifest.Author[] { new Manifest.Author("Masterjoona", 297410829589020673L) };
-        manifest.description = String.format("Token Login WIP");
+        manifest.description = String.format("AccountSwitcher, only token. WIP");
         manifest.version = "1.0.0";
         manifest.updateUrl = "https://raw.githubusercontent.com//Masterjoona/AliuPlugins/updater.json";
         return manifest;
