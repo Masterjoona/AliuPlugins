@@ -15,7 +15,7 @@ import com.discord.stores.StoreAuthentication;
 import com.discord.stores.StoreStream;
 
 @SuppressWarnings("unused")
-public class Lmgtfy extends Plugin {
+public class AccountSwitcher extends Plugin {
 
     
 
@@ -40,7 +40,7 @@ public class Lmgtfy extends Plugin {
             ctx -> {
                 String token = ctx.getRequiredString("Token");
                 StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, token.toString(), null));
-                system.exit(0)
+                system.exit(0);
             }
         );
     }
@@ -49,3 +49,4 @@ public class Lmgtfy extends Plugin {
     public void stop(Context context) {
         commands.unregisterAll();
     }
+}
