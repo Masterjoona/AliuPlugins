@@ -8,7 +8,7 @@ import com.aliucord.entities.Plugin;
 import com.aliucord.api.CommandsAPI;
 import com.discord.api.commands.ApplicationCommandType;
 import com.discord.models.commands.ApplicationCommandOption;
-
+import com.aliucord.Http;
 import java.util.*;
 
 @SuppressWarnings("unused")
