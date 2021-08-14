@@ -36,7 +36,8 @@ public class Lmgtfy extends Plugin {
             Collections.singletonList(argument),
             ctx -> {
                 String word = ctx.getRequiredString("word");
-                String str = "https://lmgtfy.app/?q=" + word;
+                String url = new Http.QueryBuilder("https://lmgtfy.com").append("q", word).toString();
+                return new CommandsAPI.CommandResult(url);
 
                 return new CommandsAPI.CommandResult(str.toString());
             }
