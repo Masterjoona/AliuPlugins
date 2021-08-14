@@ -38,8 +38,6 @@ public class Lmgtfy extends Plugin {
                 String word = ctx.getRequiredString("word");
                 String url = new Http.QueryBuilder("https://lmgtfy.com").append("q", word).toString();
                 return new CommandsAPI.CommandResult(url);
-
-                return new CommandsAPI.CommandResult(str.toString());
             }
         );
     }
