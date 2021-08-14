@@ -30,7 +30,7 @@ public class Tags extends Plugin {
         manifest.authors = new Manifest.Author[]{ new Manifest.Author("Masterjoona", 297410829589020673L) };
         manifest.description = String.format("Account swithcer tho named tags");
         manifest.version = "1.1.0";
-        manifest.updateUrl = "https://raw.githubusercontent.com/username/repo/builds/updater.json";
+        manifest.updateUrl = "https://raw.githubusercontent.com/Masterjoona/AliuPlugins/builds/updater.json";
         return manifest;
     }
 
