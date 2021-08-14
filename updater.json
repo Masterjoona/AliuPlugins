@@ -5,7 +5,7 @@
         "build": "https://raw.githubusercontent.com/USERNAME/REPONAME/builds/%s.zip"
     },
     "Lmgtfy": {
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "UrlShort": {
         "version": "1.0.0"
