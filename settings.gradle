@@ -1,6 +1,5 @@
 include ':Lmgtfy'
 include ':UrlShort'
-include ':AccountSwitcher'
 include ':Tags'
 rootProject.name = "plugins"
 
