@@ -1,0 +1,4 @@
+com/aliucord/plugins/UrlShort.java
+ com.aliucord.plugins.UrlShort
+com/aliucord/plugins/BuildConfig.java
+ com.aliucord.plugins.BuildConfig
