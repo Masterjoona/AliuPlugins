@@ -40,7 +40,7 @@ public class AccountSwitcher extends Plugin {
             ctx -> {
                 String token = ctx.getRequiredString("Token");
                 StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, token.toString(), null));
-                return new CommandsAPI.CommandResult("Close the app and remove from recents and you should be logged in.", null, false)
+                return new CommandsAPI.CommandResult("Close the app and remove from recents and you should be logged in.", null, false);
             }
         );
     }
