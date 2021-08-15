@@ -1,0 +1,2 @@
+com/aliucord/plugins/tags/AddCommand.java
+ com.aliucord.plugins.tags.AddCommand
