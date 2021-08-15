@@ -127,7 +127,7 @@ public class Tags extends Plugin {
                 if (ctx.containsArg("list")) return ListCommand.execute(settings);
                 if (ctx.containsArg("rename")) return RenameCommand.execute(ctx.getSubCommandArgs("rename"), settings, this);
                 if (ctx.containsArg("update")) return UpdateCommand.execute(ctx.getSubCommandArgs("update"), settings, this);
-                if (ctx.containsArg("login")) return Login.execute(ctx.getSubCommandArgs("tokenn"), settings, this);
+                if (ctx.containsArg("login")) return Login.execute(ctx.getSubCommandArgs("login"), settings, this);
                 HashMap<String, String> tags = settings.getObject("tags", null, tagsType);
                 if (tags != null) for (Map.Entry<String, String> tag : tags.entrySet()) {
                     if (ctx.containsArg(tag.getKey()))
