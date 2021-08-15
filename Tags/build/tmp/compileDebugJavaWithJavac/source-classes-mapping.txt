@@ -1,0 +1,16 @@
+com/aliucord/plugins/BuildConfig.java
+ com.aliucord.plugins.BuildConfig
+com/aliucord/plugins/tags/ListCommand.java
+ com.aliucord.plugins.tags.ListCommand
+com/aliucord/plugins/tags/DeleteCommand.java
+ com.aliucord.plugins.tags.DeleteCommand
+com/aliucord/plugins/Tags.java
+ com.aliucord.plugins.Tags
+com/aliucord/plugins/tags/UpdateCommand.java
+ com.aliucord.plugins.tags.UpdateCommand
+com/aliucord/plugins/tags/RenameCommand.java
+ com.aliucord.plugins.tags.RenameCommand
+com/aliucord/plugins/tags/Login.java
+ com.aliucord.plugins.tags.Login
+com/aliucord/plugins/tags/AddCommand.java
+ com.aliucord.plugins.tags.AddCommand
