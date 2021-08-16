@@ -23,7 +23,7 @@ public class Lmgtfy extends Plugin {
         manifest.authors = new Manifest.Author[] { new Manifest.Author("Masterjoona", 297410829589020673L) };
         manifest.description = String.format("Lmgtfy let me google that for you");
         manifest.version = "1.0.1";
-        manifest.updateUrl = "https://raw.githubusercontent.com/Masterjoona/aluplugin/updater.json";
+        manifest.updateUrl = "https://raw.githubusercontent.com/Masterjoona/aliuplugins/updater.json";
         return manifest;
     }
 
