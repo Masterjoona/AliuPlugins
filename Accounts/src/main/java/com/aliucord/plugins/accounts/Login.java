@@ -17,10 +17,8 @@ import com.discord.stores.StoreStream;
 
 public final class Login {
     public static CommandsAPI.CommandResult execute(Map<String, ?> args, SettingsAPI sets, Accounts main) {
-        HashMap<String, String> settings = sets.getObject("accounts", new HashMap<>());
-        var name = (String) args.get("AccountToken");
-        String token = settings.get(name);
-        StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, token.toString(), null));
+        String token = (String) args.get("AccountToken");
+        StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, token, null));
 
         return new CommandsAPI.CommandResult("Close Aliucord and remove from recent apps and you should be logged in.", null, false);
     }
