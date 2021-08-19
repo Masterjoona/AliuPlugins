@@ -137,8 +137,6 @@ public class Accounts extends Plugin {
                         StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, account.getValue().toString(), null));
                         return new CommandsAPI.CommandResult("Successfully logged in. Close Aliucord and remove from recents, and you should logged in.", null, false);
                 }
-                StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, account.getValue().toString(), null));
-                return new CommandsAPI.CommandResult("Successfully logged in. Close Aliucord and remove from recents, and you should logged in.", null, false);
                 return new CommandsAPI.CommandResult();
             }
         );
