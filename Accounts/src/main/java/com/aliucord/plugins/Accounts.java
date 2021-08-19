@@ -129,7 +129,7 @@ public class Accounts extends Plugin {
                 if (ctx.containsArg("list")) return ListCommand.execute(settings);
                 if (ctx.containsArg("rename")) return RenameCommand.execute(ctx.getSubCommandArgs("rename"), settings, this);
                 if (ctx.containsArg("update")) return UpdateCommand.execute(ctx.getSubCommandArgs("update"), settings, this);
-                if (ctx.containsArg("login")) return UpdateCommand.execute(ctx.getSubCommandArgs("login"), settings, this);
+                if (ctx.containsArg("login")) return LoginCommand.execute(ctx.getSubCommandArgs("login"), settings, this);
                 HashMap<String, String> accounts = settings.getObject("accounts", null, accountsType);
                 if (accounts != null) for (Map.Entry<String, String> account : accounts.entrySet()) {
                     if (ctx.containsArg(account.getKey()))
