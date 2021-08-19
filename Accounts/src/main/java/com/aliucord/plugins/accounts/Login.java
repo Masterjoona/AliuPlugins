@@ -17,7 +17,7 @@ import com.discord.stores.StoreStream;
 
 public final class Login {
     public static CommandsAPI.CommandResult execute(Map<String, ?> args, SettingsAPI sets, Accounts main) {
-        var name = (String) args.get("AccountToken");
+        var name = (String) args.get("Token");
 
         StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, name.toString(), null));
         return new CommandsAPI.CommandResult("Successfully logged in. Close Aliucord and remove from recents, and you should logged in.", null, false);
