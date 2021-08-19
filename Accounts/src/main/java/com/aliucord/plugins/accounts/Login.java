@@ -20,7 +20,7 @@ public final class Login {
         HashMap<String, String> settings = sets.getObject("accounts", new HashMap<>());
         var name = (String) args.get("AccountToken");
         String token = settings.get(name);
-        StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, token, null));
+        StoreAuthentication.access$dispatchLogin(StoreStream.getAuthentication(), new ModelLoginResult(false, null, token.toString(), null));
 
         return new CommandsAPI.CommandResult("Close Aliucord and remove from recent apps and you should be logged in.", null, false);
     }
