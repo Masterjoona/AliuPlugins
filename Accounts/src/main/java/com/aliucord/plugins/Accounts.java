@@ -33,7 +33,7 @@ public class Accounts extends Plugin {
         var manifest = new Manifest();
         manifest.authors = new Manifest.Author[]{ new Manifest.Author("Masterjoona", 297410829589020673L) };
         manifest.description = "Account Switcher";
-        manifest.version = "1.0.0";
+        manifest.version = "1.0.1";
         manifest.updateUrl = "https://raw.githubusercontent.com/Masterjoona/AliuPlugins/builds/updater.json";
         return manifest;
     }
@@ -48,7 +48,7 @@ public class Accounts extends Plugin {
             null, true, true, null, null);
         var existingTag = new ApplicationCommandOption(ApplicationCommandType.STRING, "name", "Token name",
             null, true, true, existingTags, null);
-        var AccountToken = new ApplicationCommandOption(ApplicationCommandType.STRING, "token", "Login into an account with a Token",
+        var AccountToken = new ApplicationCommandOption(ApplicationCommandType.STRING, "Token", "Login into an account with a Token",
             null, true, true, null, null);
 
         subcommands.add(new ApplicationCommandOption(
@@ -113,7 +113,7 @@ public class Accounts extends Plugin {
             false,
             false,
             null,
-            Arrays.asList(AccountToken)
+            Arrays.asList(Token)
         ));
 
         HashMap<String, String> _accounts = settings.getObject("accounts", null, accountsType);
