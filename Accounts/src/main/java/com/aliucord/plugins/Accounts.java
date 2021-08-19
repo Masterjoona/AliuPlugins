@@ -33,7 +33,7 @@ public class Accounts extends Plugin {
         var manifest = new Manifest();
         manifest.authors = new Manifest.Author[]{ new Manifest.Author("Masterjoona", 297410829589020673L) };
         manifest.description = "Account Switcher";
-        manifest.version = "1.0.1";
+        manifest.version = "1.0.0";
         manifest.updateUrl = "https://raw.githubusercontent.com/Masterjoona/AliuPlugins/builds/updater.json";
         return manifest;
     }
