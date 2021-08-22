@@ -1,0 +1,2 @@
+com/aliucord/plugins/BuildConfig.java
+ com.aliucord.plugins.BuildConfig
