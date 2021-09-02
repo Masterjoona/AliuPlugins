@@ -1,7 +1,6 @@
 include ':Lmgtfy'
 include ':UrlShort'
 include ':Accounts'
-include ':tm'
 rootProject.name = "plugins"
 
 include ':DiscordStubs'
