@@ -30,7 +30,7 @@ fun Project.android(configuration: BaseExtension.() -> Unit) = extensions.getByN
 subprojects {
     apply(plugin = "com.android.library")
     apply(plugin = "com.aliucord.gradle")
-    apply(plugin = "com.android.internal.version-check"
+    apply(plugin = "com.android.internal.version-check")
 
 
     aliucord {
