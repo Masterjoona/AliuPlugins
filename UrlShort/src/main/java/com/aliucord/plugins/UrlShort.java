@@ -38,7 +38,7 @@ public class UrlShort extends Plugin {
         manifest.authors = new Manifest.Author[] { new Manifest.Author("Masterjoona", 297410829589020673L) };
         manifest.description = String.format("Urlshortener");
         manifest.version = "1.0.0";
-        manifest.updateUrl = "https://raw.githubusercontent.com/Masterjoona/AliuPlugins/updater.json";
+        manifest.updateUrl = "https://raw.githubusercontent.com/Masterjoona/AliuPlugins/main/updater.json";
         return manifest;
     }
 
